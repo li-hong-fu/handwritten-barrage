@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.page{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-container{
+    text-align: center;
+}
+.player-container .player{
+    width: 800px;
+    height: 500px;
+    margin-bottom: 10px;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.player-container .player .notice{
+    height: 60px;
+    line-height: 60px;
+    color: #cc9933;
+}
+.player-container .player .barrage{
+    position: absolute;
+    left: 0;
+}
+
+.player-container .player .barrage:hover{
+    animation-play-state: paused !important;
+}
+
+#input{
+    height: 25px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.player-container .send-wrap .submit{
+    width: 60px;
+    height: 29px;
+}
+
+

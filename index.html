@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聊天弹幕测试</title>
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="page">
+        <div class="player-container">
+            <div class="player" id="container">
+                <div class="notice">公告</div>
+                <div class="barrage">这个神马问题</div>
+            </div>
+
+            <div class="send-wrap">
+                <input type="text" id="input" placeholder="弹幕发送" />
+                <input type="button" class="submit" value="发送" />
+            </div>
+        </div>
+    </div>
+
+    <script src="./utils.js"></script>
+    <script src="./barrage.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
